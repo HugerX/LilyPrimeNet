@@ -1,0 +1,124 @@
+*{margin:0;
+padding:0;    
+    
+}
+.balance{background-color:royalblue;
+color:white;
+padding:10px;
+border-radius:5px;  
+box-shadow:1px 4px 0px 2px #dcdde1;  
+border:0.6px solid;
+text-align:center;
+
+z-index:1;
+}
+#balance{padding:5px;
+width:120px;
+height:65px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;}
+.button:hover {background-color: #3e8e41}
+
+
+
+#follow{
+font-family:serif;
+height:80%;
+display:flex;
+  align-items:center ;
+  justify-content:center;
+  color:red;
+  border-bottom:0.2px solid;
+  position:fixed;
+bottom:50px;
+width:100%;
+  padding:7px;
+  width:50%;
+    margin:auto;
+    left:102px;
+    right:18;
+}
+.sm {
+    line-height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center ;
+     position:fixed;
+left:0;
+bottom:0;
+width:100%;
+
+}
+
+.fa {background-color:#f5f6fa;
+width:35px;
+line-height:35px;
+border-radius:50%;
+box-shadow:1px 4px 2px 2px #dcdde1;
+border:none;
+margin:2px;
+margin-top:0;
+position:absolute ;
+}
+
+#fa {color:#08a0e9;
+animation:mymove 2s  ;
+position: relative;
+margin-top:10px;
+
+}
+#fa1 {color:#0088cc;
+animation:mymove 2s;
+position: relative;
+margin-top:10px;
+}
+.sm button{transition: all .3s linear;
+} 
+
+.sm:hover button{transform: scale(1.2);
+    
+    
+}
+@keyframes mymove {
+from {width:40px;height:40px;border-radius:30%;}
+to   {width:35px;height:35px;border-radius:49%;}
+   0%   {left:0px;}
+   50%{transform: rotate(360deg);}
+   50%{transform: rorate(360deg);}     
+  }  
+  #follow {
+  width: 10rem;
+  height: 2.2rem;
+  background-color: var(--color-white);
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transition: width 0.5s 0.4s, height 0.5s;
+  -o-transition: width 0.5s 0.4s, height 0.5s;
+  transition: width 0.5s 0.4s, height 0.5s;
+  -webkit-box-shadow: 0 0 1rem rgba(29, 29, 29, 0.1);
+          box-shadow: 0 0 1rem rgba(29, 29, 29, 0.1);
+  cursor: pointer;
+}
+.unkn:active button{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+    #follow:hover {
+  -webkit-transition: all 0.3s 1s;
+  -o-transition: all 0.3s 1s;
+  transition: all 0.3s 1s;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+    
+}
